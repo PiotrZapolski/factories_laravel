@@ -9,6 +9,8 @@ class Category extends Model
 {
     use HasFactory;
 
+    public $timestamps = NULL;
+
     /**
      * The attributes that are mass assignable.
      *
